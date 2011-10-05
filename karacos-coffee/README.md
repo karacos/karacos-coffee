@@ -1,0 +1,1 @@
+KaraCos-coffee is the implementation of Karacos using coffeescript
