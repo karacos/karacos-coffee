@@ -1,0 +1,62 @@
+{
+    "name": "karacos",
+    "version": "0.0.1",
+    "description": "coffeescript implementation of KaraCos",
+    "homepage": "https://github.com/karacos/karacos-coffee",
+    "keywords": [
+        "javascript",
+        "dms",
+        "content",
+        "repository",
+        "nocr",
+        "semantic",
+        "coffeescript",
+        "cms"
+    ],
+    "author": {
+        "name": "Nicolas Karageuzian",
+        "email": "nka@nka.me",
+        "web": "http://nka.me"
+    },
+    "maintainers": [
+        {
+            "name": "Nicolas Karageuzian",
+            "email": "nka@nka.me",
+            "web": "http://nka.me"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Nicolas Karageuzian",
+            "email": "nka@nka.me",
+            "web": "http://nka.me"
+        }
+    ],
+    "bugs": {
+        "web": "https://github.com/karacos/karacos-coffee/issues"
+    },
+    "licenses": [
+        {
+            "type": "LGPL",
+            "url": "http://www.gnu.org/licenses/lgpl.html"
+        }
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/karacos/karacos-coffee.git"
+    },
+    "dependencies": {
+        "NoCR": ">=0.0.1",
+        "log4js": ">=0.2.6"
+    },
+    "devDependencies": {
+        "vows": ">=0.5.8"
+    },
+    "engines" : {
+        "node": ">=0.4.0"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "main": "./src/karacos/core.coffee"
+}
